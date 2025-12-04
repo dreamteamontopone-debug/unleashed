@@ -55,6 +55,13 @@ h1{
 
 /* VIEWPORT FOR 320px ( MOBILE ) */
 @media (max-width: 420px) {
+    html {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
     h1 {
         margin-top: 50px;
     }

@@ -242,6 +242,13 @@ h4{
 /* VIEWPORT FOR 320px - 420px (MOBILE) */
 @media (max-width: 420px) {
     
+    html {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         text-align: center;
         overflow-x: hidden;

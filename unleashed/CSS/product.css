@@ -246,6 +246,12 @@ h3,h2 {
 
 /* VIEWPORT FOR 420px (MOBILE) */
 @media (max-width: 420px) {
+    html {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
 
     body {
         overflow-x: hidden;
@@ -336,7 +342,7 @@ h3,h2 {
     .productimage {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap; /* VERY IMPORTANT! DONT REMOVE THIS PRODUCT WILL SHOW ON VERTICAL NOT HORIZONTAL*/
+        flex-wrap: nowrap; /* VERY IMPORTANT! DONT REMOVE THIS, THE PRODUCT WILL SHOW ON VERTICAL NOT HORIZONTAL*/
         overflow-x: auto;   
         scroll-snap-type: x mandatory; 
         scroll-behavior: smooth;

@@ -93,6 +93,13 @@ body{
 
 /* VIEWPORT FOR 320px ( MOBILE ) */
 @media (max-width: 420px) {
+    html {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
     .container2 {
         margin-top: 40px;
     }

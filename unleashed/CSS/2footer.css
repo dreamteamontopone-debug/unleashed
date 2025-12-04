@@ -77,13 +77,6 @@ a {
         margin-bottom: 10px;
     }
 
-    .logoF img {
-        max-width: 100%;
-        height: auto;
-        justify-content: center;
-        align-items: center;
-    }
-
     .phone {
         width: 100%;
         font-size: 0.9rem;
@@ -96,7 +89,7 @@ a {
     }
 
     .contacts {
-        width: 35px;
+        width: 30px;
         height: 35px;
     }
 
