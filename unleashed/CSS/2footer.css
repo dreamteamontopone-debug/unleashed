@@ -85,7 +85,10 @@ a {
     }
 
     .contactsF {
-       margin-left: 6.5rem;
+       margin-left: 0;
+       width: auto;
+       justify-content: center;
+       gap: 10px;
     }
 
     .contacts {
